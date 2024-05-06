@@ -1,9 +1,6 @@
 import 'dart:developer';
 import 'dart:ui';
-
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:flutter_drawing_app/pages/drawing/listener/drawing_listener.dart';
 import 'package:flutter_drawing_app/pages/drawing/utils/drawing_point.dart';
 
@@ -151,6 +148,9 @@ class DrawingPage extends StatelessWidget {
                             Text('Clear paint'),
                           ],
                         ),
+                      ),
+                      const SizedBox(
+                        width: 20,
                       ),
                       IconButton.filled(
                         onPressed: () {
